@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfe7rk2rtxmvo"]
+
+[ext_resource type="PackedScene" uid="uid://bbhrv66v2gmfp" path="res://Cena/area_2d_bullet_catcher.tscn" id="1_0fchj"]
+[ext_resource type="PackedScene" uid="uid://dlrs10centeq3" path="res://Cena/area_2d_player.tscn" id="1_d7skp"]
+
+[node name="Node_main" type="Node"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+scale = Vector2(0.964912, 1.00402)
+
+[node name="Area2D_bulletCatcher" parent="." instance=ExtResource("1_0fchj")]
+
+[node name="Area2D_player" parent="." instance=ExtResource("1_d7skp")]
+position = Vector2(0, 303.214)
+scale = Vector2(0.964912, 1.00905)

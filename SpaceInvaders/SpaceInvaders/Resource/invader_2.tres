@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ckmql1t7kf4em"]
+
+[ext_resource type="Script" path="res://Resource/invader_config.gd" id="1_ll7fk"]
+[ext_resource type="Texture2D" uid="uid://bn227mp3yqjlo" path="res://Assets Space Invaders (2)/Assets Space Invades/Invaders/Invader2-1.png" id="2_hdpbk"]
+
+[resource]
+script = ExtResource("1_ll7fk")
+sprite = ExtResource("2_hdpbk")
+width = 11
+animation_name = "move_2"
+points = 20
