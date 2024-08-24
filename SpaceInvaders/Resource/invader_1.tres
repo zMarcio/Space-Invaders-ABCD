@@ -1,9 +1,0 @@
-[gd_resource type="Resource" load_steps=2 format=3 uid="uid://d2smrwwnfwk0n"]
-
-[ext_resource type="Script" path="res://Resource/invader_config.gd" id="1_bbydx"]
-
-[resource]
-script = ExtResource("1_bbydx")
-width = 8
-animation_name = "move_1"
-points = 40
